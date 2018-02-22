@@ -5,7 +5,7 @@ public class Whiztest3 {
             j = 1 ;
             while ( j < 4 ) {
                 if ( j%2 == 0){
-                    break ;
+                    break whizlabs ;
                 }
                 j++ ;
                 System.out.print("i="+i+", j= "+j+"inner");
