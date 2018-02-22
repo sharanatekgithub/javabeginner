@@ -1,5 +1,3 @@
-package com.javabeginner.helloworld;
-
 import com.sun.deploy.config.Config;
 
 /**
