@@ -14,7 +14,7 @@ public class LocalClassExample {
 
             PhoneNumber(String phoneNumber) {
                 String currentNumber = phoneNumber.replaceAll(
-                        regularExpression, "");
+                        LocalClassExample.regularExpression, "");
 
                 if (currentNumber.length() == numberLength)
                     formattedPhoneNumber = currentNumber;
@@ -53,7 +53,7 @@ public class LocalClassExample {
 
     public static void main(String... args) {
         validatePhoneNumber("123-456-7890"
-                            , "456-7890");
+                , "456-7890");
     }
 
 }
