@@ -4,6 +4,8 @@ public class ParametersTest {
         Integer temp = new Integer(i);
         i = j;
         j = temp;
+
+        System.out.println("invoked with "+i.toString()+" and "+j.toString());
     }
     public static void main(String[] args) {
         Integer i = new Integer(10);
