@@ -44,5 +44,10 @@ public class BooleanTest {
 
         Boolean b6 = Boolean.valueOf("false");
         System.out.println("b6= "+b6);
+
+        //using Objects for logicalAND
+        System.out.println(Boolean.logicalAnd(new Boolean(true),new Boolean(false)));
+
+
     }
 }
