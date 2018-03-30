@@ -48,6 +48,7 @@ public class BooleanTest {
         //using Objects for logicalAND
         System.out.println(Boolean.logicalAnd(new Boolean(true),new Boolean(false)));
 
-
+        System.out.println(Boolean.compare(true, false));
+        System.out.println(Boolean.compare(false, true));
     }
 }
