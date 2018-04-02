@@ -17,4 +17,8 @@ class DataClass {
     public DataClass(int value){
         this.value = value;
     }
+
+    public boolean equals(Object o){
+        return this.value == ((DataClass)o).value;
+    }
 }
